@@ -3,7 +3,7 @@
 XRAY_VERSION="${XRAY_VERSION:-25.10.15}"
 HY2_VERSION="${HY2_VERSION:-2.6.4}"
 ARGO_VERSION="${ARGO_VERSION:-2025.9.1}"
-DOMAIN="${DOMAIN:-node.waifly.com}"
+DOMAIN="${DOMAIN:-vevc.github.com}"
 PORT="${PORT:-10008}"
 UUID="${UUID:-$(cat /proc/sys/kernel/random/uuid)}"
 ARGO_DOMAIN="${ARGO_DOMAIN:-xxx.trycloudflare.com}"
