@@ -54,13 +54,13 @@ hy2Url="hysteria2://$UUID@$DOMAIN:$PORT?insecure=1#$REMARKS_PREFIX-hy2"
 echo $hy2Url >> /home/container/node.txt
 
 cd /home/container
-sed -i "s/YOUR_DOMAIN/$DOMAIN/g" app.js
-sed -i "s/10008/$PORT/g" app.js
-sed -i "s/YOUR_UUID/$UUID/g" app.js
-sed -i "s/YOUR_SHORT_ID/$shortId/g" app.js
-sed -i "s/YOUR_PUBLIC_KEY/$publicKey/g" app.js
-sed -i "s/YOUR_ARGO_DOMAIN/$ARGO_DOMAIN/g" app.js
-sed -i 's/ARGO_TOKEN = ""/ARGO_TOKEN = "'$ARGO_TOKEN'"/g' app.js
-sed -i "s/YOUR_REMARKS_PREFIX/$REMARKS_PREFIX/g" app.js
+sed -i "s/YOUR_DOMAIN/$DOMAIN/g" $MAIN_FILE
+sed -i "s/10008/$PORT/g" $MAIN_FILE
+sed -i "s/YOUR_UUID/$UUID/g" $MAIN_FILE
+sed -i "s/YOUR_SHORT_ID/$shortId/g" $MAIN_FILE
+sed -i "s/YOUR_PUBLIC_KEY/$publicKey/g" $MAIN_FILE
+sed -i "s/YOUR_ARGO_DOMAIN/$ARGO_DOMAIN/g" $MAIN_FILE
+sed -i 's/ARGO_TOKEN = ""/ARGO_TOKEN = "'$ARGO_TOKEN'"/g' $MAIN_FILE
+sed -i "s/YOUR_REMARKS_PREFIX/$REMARKS_PREFIX/g" $MAIN_FILE
 
 echo "✅ Installation completed. Restart the server and enjoy ~"
