@@ -4,7 +4,7 @@
 
 ```
 curl -s https://raw.githubusercontent.com/vevc/node-xah/refs/heads/main/install.sh |
-env DOMAIN=node.waifly.com PORT=27796 bash
+env DOMAIN=example.com PORT=27796 bash
 ```
 
 ## 📋 环境变量列表
@@ -26,7 +26,7 @@ env DOMAIN=node.waifly.com PORT=27796 bash
 
 ```
 curl -s https://raw.githubusercontent.com/vevc/node-xah/refs/heads/main/install.sh |
-env DOMAIN=node.waifly.com PORT=27796 UUID='' XRAY_VERSION=25.10.15 HY2_VERSION=2.6.4 ARGO_VERSION=2025.9.1 ARGO_DOMAIN='' ARGO_TOKEN='' REMARKS_PREFIX='vevc' MAIN_FILE='app.js' bash
+env DOMAIN=example.com PORT=27796 UUID='' XRAY_VERSION=25.10.15 HY2_VERSION=2.6.4 ARGO_VERSION=2025.9.1 ARGO_DOMAIN='' ARGO_TOKEN='' REMARKS_PREFIX='vevc' MAIN_FILE='app.js' bash
 ```
 
 ## 📢 使用说明与免责声明
